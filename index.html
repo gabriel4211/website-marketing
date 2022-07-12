@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GBS - Seu négocio </title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+  <header data-header>
+    <div class="overlay" data-overlay></div>
+
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h4>LOGO</h4>
+      </a>
+
+      <button class="nav-open-btn maniabg" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link">Inicio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link">Serviços</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link">Sobre</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link">Perguntas</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#pricing" class="navbar-link">Preços</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#faq" class="navbar-link">FAQ's</a>
+          </li>
+
+        </ul>
+
+        <button onclick="comecaragora()" class="btn btn-primary">Comece agora</button>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+      <section class="hero" id="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Tenha o seu próprio négocio.</h1>
+
+            <form action="" class="hero-form">
+
+              <input type="text" id="nome" name="name" placeholder="Insira o seu nome" required class="input-field">
+
+              <input type="text" id="comentario" name="email" placeholder="Em poucas palavras, nos diga o que você precisa" required class="input-field">
+
+              <button type="submit" onclick="enviarparazap()" class="btn btn-primary">Enviar agora</button>
+            
+            </form>
+
+            <p class="hero-text">
+              <span>Atendimento de qualidade</span>
+              <span>Serviços de qualidade</span>
+              <span>Profissionalismo</span>
+            </p>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Seo illustration">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - O QUE FAZEMOS REALMENTE ##BEIJOSGAB
+      -->
+
+      <section class="service" id="service">
+        <div class="container">
+
+          <h2  class="h2 section-title mania">O que somos capazes de fazer?</h2>
+
+          <p class="section-text">
+            Somos capazes de construir a sua empresa na internet sem fronteiras: desde conceito, UI/UX, sua logomarca, 
+            todo o seu branding. 
+          </p>
+
+          <ul class="service-list listadecoisas">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Conforto</h3>
+
+                <p class="card-text">
+                  Abra o seu négocio e crie ideias brilhantes sem sair de casa
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="bar-chart-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Você no topo</h3>
+
+                <p class="card-text">
+                  Alavanque seu négocio de forma inovadora
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pencil-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Marketing</h3>
+
+                <p class="card-text">
+                  Criamos banners, posters, design de aplicativos e sites
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Rapidez e suporte</h3>
+
+                <p class="card-text">
+                  Oferecemos suporte gratuito pelos serviços prestados
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <div class="about-top">
+
+            <figure class="about-banner">
+              <img src="./assets/images/about-banner-1.png" alt="Seo illustration">
+            </figure>
+
+            <div class="about-content">
+
+              <p class="section-subtitle">Novo</p>
+
+              <h2 class="h3 section-title">Crie o seu site conosco</h2>
+
+              <p class="section-text">
+               Desenvolve, crie e publique seu site com a gente. Somos capazes de criar um site com um design perfeito para o seu négocio
+               e com estratégias de UX (experiência do usúario) de forma que ele seja atraente para os seus clientes e visitantes
+              </p>
+
+            </div>
+
+          </div>
+
+      </section>
+      
+      <section class="pricing" id="pricing">
+        <div class="container">
+
+          <div class="pricing-content">
+
+            <p class="section-subtitle">Trabalhe conosco</p>
+
+            <h2 class="h3 section-title">Desenvolva e cresça conosco</h2>
+
+            <form action="suport.html">
+            <button class="btn btn-primary">QUERO FAZER PARTE</button>
+            </form>
+          </div>
+
+          <figure class="pricing-banner">
+            <img src="./assets/images/pricing-banner.png" alt="ilustracao">
+          </figure>
+
+        </div>
+      </section>
+
+  <!-- 
+    - #fundo
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+         <h4>Logo</h4> <br>
+
+          <p class="section-text">
+            Somos uma empresa que criamos, desenvolvemos e publicamos ideias inovadoras para alavancar a sua empresa
+          </p>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Comunidade</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sobre</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Carreira</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Imprensa</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contato</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Descobrir</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Nosso blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Publicidade</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Preços</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Testemunhas e Portfolio</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Uso</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Termos de uso</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Temos de privacidade</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Cookies e armazenamento</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4">Suporte</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">FAQs</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Email</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Chat ao vivo</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#">code by gabriel</a>. Todos direitos reservados
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">GitHub</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">YouTube</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
